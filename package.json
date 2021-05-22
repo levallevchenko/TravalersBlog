@@ -1,7 +1,7 @@
 {
-  "name": "test",
+  "name": "TravalersBlog",
   "private": true,
-  "description": "test",
+  "description": "Travaler's blog page",
   "devDependencies": {
     "@htmlacademy/editorconfig-cli": "1.0.0",
     "autoprefixer": "10.0.2",
