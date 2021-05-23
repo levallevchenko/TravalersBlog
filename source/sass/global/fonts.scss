@@ -1,20 +1,26 @@
 @font-face {
-  font-family: "Oswald";
-  font-style: normal;
   font-weight: 400;
+  font-family: "Manrope";
+  font-style: normal;
   font-display: swap;
-  src: local("Oswald"),
-    url("../fonts/oswaldregular.woff2"),
-    url("../fonts/oswaldregular.woff");
+  src: url("../fonts/Manrope-Regular.woff2") format("woff2"),
+    url("../fonts/Manrope-Regular.woff") format("woff");
 }
 
 @font-face {
-  font-family: "Oswald";
+  font-weight: 600;
+  font-family: "Manrope";
   font-style: normal;
-  font-weight: 500;
   font-display: swap;
-  src: local("Oswald Medium"),
-    local("Oswald-Medium"),
-    url("../fonts/oswaldmedium.woff2"),
-    url("../fonts/oswaldmedium.woff");
+  src: url("../fonts/Manrope-SemiBold.woff2") format("woff2"),
+    url("../fonts/Manrope-SemiBold.woff") format("woff");
+}
+
+@font-face {
+  font-weight: 800;
+  font-family: "Manrope";
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/Manrope-ExtraBold.woff2") format("woff2"),
+    url("../fonts/Manrope-ExtraBold.woff") format("woff");
 }
