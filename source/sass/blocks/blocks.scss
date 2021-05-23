@@ -38,8 +38,8 @@
   @include reset-list;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  // grid-template-rows: max-content;
   gap: 35px;
+  color: $black;
 
   @media (min-width: $tablet-width) {
     grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
@@ -96,13 +96,14 @@
   font-size: 18px;
 }
 
-
-// .content__text--intro {
-// }
+.content__text--intro {
+  font-weight: 600;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
 
 .content__picture {
   justify-self: center;
-  min-width: 220px;
+  min-width: 205px;
 }
 
 .main-footer {
